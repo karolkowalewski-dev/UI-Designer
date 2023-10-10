@@ -1,0 +1,129 @@
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    background-color: #fff;
+  }
+
+
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 18%;
+  }
+
+.scroll-down {
+  margin-top: 48px;
+  display: flex;
+  align-self: center;
+  animation: MoveUpDown 1s ease-in-out infinite;
+}
+
+@keyframes MoveUpDown {
+  0% { transform: translateY(0); }
+    100% { transform: translateY(50px);
+}
+
+}
+
+.portfolio {
+  margin-top: 96px;
+}
+
+.welcome {
+  font-family: "Dela Gothic One";
+  line-height: 1.1;
+  font-size: 120px;
+  color: #1F2933;
+  }
+
+.about {
+  font-family:"Sora";
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 500;
+  padding-top: 48px;
+  color: #323F4B;
+}
+
+.title {
+  font-family: "Sora";
+  font-size: 20px;
+  color: #1F2933;
+  padding-top: 24px;
+  font-weight: 800;
+}
+
+.body {
+  font-size: 16px;
+  font-family:"Sora";
+  color: #323F4B;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 140px;
+  }
+
+.photo {
+  width: 100%;
+}
+ 
+
+  .img {
+    width: 100%;
+    
+  }
+
+  .container {
+    width: 100%;
+  }
+
+
+
+
+
+
+@media only screen and (min-width: 1920px) and (max-width: 3000px) {
+  section {
+    margin: 0 28%;
+  }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1920px) {
+  section {
+    margin: 0 26%;
+  }
+  .welcome {
+    font-size: 116px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+    .welcome {
+      font-size: 96px;
+    }
+  }
+
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+  section {
+    margin: 0 12%;
+  }
+
+  .welcome {
+    font-size: 48px;
+  }
+
+}
+  
+
+
