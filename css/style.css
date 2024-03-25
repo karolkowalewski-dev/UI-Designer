@@ -1,1 +1,188 @@
+* {
+	box-sizing: border-box;
+    margin: 0 auto;
+}
+html {
+	scroll-snap-type: mandatory;
+	scroll-snap-points-y: repeat(100vh);
+	scroll-snap-type: y mandatory;
+}
+section {
+	height: 100vh;
+	scroll-snap-align: start;
 
+}
+
+
+.dark {
+  color: #fff;
+}
+
+.red {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0 20%;
+text-align: left;
+}
+
+.blue {
+    /* margin: 0 12%; */
+    display: flex;
+    align-items: center;
+    background-color: #fcf8db;
+}
+
+.pink {
+    display: flex;
+    align-items: center;
+    background-color: rgb(218 235 255);
+}
+
+.green {
+  display: flex;
+  align-items: center;
+  background-color: #050d38;
+}
+
+.beige {
+  display: flex;
+  align-items: center;
+  background-color: #fff4e8;
+}
+
+.grey {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+.purple {
+  display: flex;
+  align-items: center;
+  background-color: #0a2d4d;
+}
+
+.white {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+}
+
+
+
+
+.welcome {
+    font-family: "Dela Gothic One";
+    line-height: 1.1;
+    font-size: 120px;
+    color: #1F2933;
+    }
+  
+  .about {
+    font-family:"Sora";
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+    padding-top: 48px;
+    color: #323F4B;
+  }
+
+  .scroll-down {
+    margin-top: 48px;
+    display: flex;
+    align-self: center;
+    animation: MoveUpDown 1s ease-in-out infinite;
+  }
+  
+  @keyframes MoveUpDown {
+    0% { transform: translateY(0); }
+      100% { transform: translateY(50px);
+  }
+  
+  }
+
+
+  .photo {
+    width: 100%;
+    padding-bottom: 2%;
+  }
+   
+  
+    .img {
+      width: 100%;
+      
+    }
+  
+    .container {
+      width: 100%;
+      /* display: flex;
+      flex-direction: column; */
+      margin: 0 20%;
+      gap: 8%;
+    }
+
+    .title {
+      font-family: "Sora";
+      font-size: 20px;
+      color: #1F2933;
+      padding-top: 24px;
+      font-weight: 800;
+    }
+    
+    .body {
+      font-size: 16px;
+      font-family:"Sora";
+      color: #323F4B;
+    }
+
+    /* .text  {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    } */
+
+
+    @media only screen and (min-width: 1920px) and (max-width: 3000px) {
+      .red {
+	margin: 0 30%;
+		}
+	.container {
+        margin: 0 24%;
+      }
+    }
+    
+    @media only screen and (min-width: 1366px) and (max-width: 1920px) {
+      
+      .welcome {
+        font-size: 116px;
+      }
+    }
+    
+    @media only screen and (min-width: 768px) and (max-width: 1366px) {
+        .welcome {
+          font-size: 96px;
+        }
+      }
+    
+    
+    @media only screen and (min-width: 360px) and (max-width: 768px) {
+      .container {
+        margin: 0 4%;
+      }
+    
+      .welcome {
+        font-size: 48px;
+      }
+
+      .title {
+        font-size: 16px;
+      }
+
+      .body {
+        font-size: 14px;
+      }
+    
+    
