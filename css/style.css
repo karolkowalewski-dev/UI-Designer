@@ -31,25 +31,25 @@ text-align: left;
     /* margin: 0 12%; */
     display: flex;
     align-items: center;
-    background-color: #fcf8db;
+    background-color: #fff;
 }
 
 .pink {
     display: flex;
     align-items: center;
-    background-color: rgb(218 235 255);
+    background-color: #fff;
 }
 
 .green {
   display: flex;
   align-items: center;
-  background-color: #050d38;
+  background-color: #1F2933;
 }
 
 .beige {
   display: flex;
   align-items: center;
-  background-color: #fff4e8;
+  background-color: #fff;
 }
 
 .grey {
@@ -61,13 +61,13 @@ text-align: left;
 .purple {
   display: flex;
   align-items: center;
-  background-color: #0a2d4d;
+  background-color: #1F2933;
 }
 
 .white {
   display: flex;
   align-items: center;
-  background-color: #000;
+  background-color: #1F2933;
 }
 
 
