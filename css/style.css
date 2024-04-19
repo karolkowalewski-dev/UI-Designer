@@ -31,43 +31,43 @@ text-align: left;
     /* margin: 0 12%; */
     display: flex;
     align-items: center;
-    background-color: #fff;
+    background-color: #f5f7fa;
 }
 
 .pink {
     display: flex;
     align-items: center;
-    background-color: #fff;
+    background-color: #f5f7fa;
 }
 
 .green {
   display: flex;
   align-items: center;
-  background-color: #1F2933;
+  background-color: #fff;
 }
 
 .beige {
   display: flex;
   align-items: center;
-  background-color: #fff;
+  background-color: #f5f7fa;
 }
 
 .grey {
   display: flex;
   align-items: center;
-  background-color: #fff;
+  background-color: #f5f7fa;
 }
 
 .purple {
   display: flex;
   align-items: center;
-  background-color: #1F2933;
+  background-color: #fff;
 }
 
 .white {
   display: flex;
   align-items: center;
-  background-color: #1F2933;
+  background-color: #fff;
 }
 
 
