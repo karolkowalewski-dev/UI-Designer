@@ -134,7 +134,7 @@ text-align: left;
     
     .body {
       font-size: 16px;
-      font-family:"Sora";
+      font-family:"Inter";
       color: #323F4B;
     }
 
@@ -175,7 +175,7 @@ text-align: left;
       }
     
       .welcome {
-        font-size: 48px;
+        font-size: 40px;
       }
 
       .title {
