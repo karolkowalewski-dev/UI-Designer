@@ -81,12 +81,13 @@ text-align: left;
     }
   
   .about {
-    font-family:"Sora";
+    font-family:"Inter";
     font-size: 20px;
-    line-height: 1.5;
-    font-weight: 500;
+    line-height: 1.6;
+    font-weight: 400;
     padding-top: 48px;
     color: #323F4B;
+	  width: 300px;	  
   }
 
   .scroll-down {
