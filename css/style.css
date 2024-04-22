@@ -37,13 +37,13 @@ text-align: left;
 .pink {
     display: flex;
     align-items: center;
-    background-color: #f5f7fa;
+    background-color: #cdebff;
 }
 
 .green {
   display: flex;
   align-items: center;
-  background-color: #fff;
+  background-color: #020518;
 }
 
 .beige {
@@ -61,13 +61,13 @@ text-align: left;
 .purple {
   display: flex;
   align-items: center;
-  background-color: #fff;
+  background-color: #cdebff;
 }
 
 .white {
   display: flex;
   align-items: center;
-  background-color: #fff;
+  background-color: #000;
 }
 
 
@@ -86,8 +86,7 @@ text-align: left;
     line-height: 1.6;
     font-weight: 400;
     padding-top: 48px;
-    color: #323F4B;
-	  width: 300px;	  
+    color: #323F4B;  
   }
 
   .scroll-down {
