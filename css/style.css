@@ -125,7 +125,7 @@ text-align: left;
 
     .title {
       font-family: "Sora";
-      font-size: 20px;
+      font-size: 24px;
       color: #1F2933;
       padding-top: 24px;
       font-weight: 800;
@@ -134,7 +134,7 @@ text-align: left;
     .body {
       font-size: 16px;
       font-family:"Inter";
-      color: #323F4B;
+      color: #52606d;
     }
 
     /* .text  {
